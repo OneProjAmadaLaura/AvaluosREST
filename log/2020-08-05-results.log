@@ -1,0 +1,66 @@
+2020-08-05 15:53:56 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 15:53:56 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0011, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 15:53:56 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 15:53:56 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 15:53:56 info: pOrientacion3
+2020-08-05 15:53:56 info: null
+2020-08-05 15:53:56 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0011', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 15:53:59 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":false,"mensaje":"El Folio indicado no existe"}]
+2020-08-05 15:53:59 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = false, mensaje = "El Folio indicado no existe", codigo = AV400
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0033, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 15:54:09 info: pOrientacion3
+2020-08-05 15:54:09 info: null
+2020-08-05 15:54:09 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0033', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-08-05 15:54:09 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = true, mensaje = "Operación exitosa", codigo = AV200
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0033, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 15:55:35 error: Buscando error en Id Terreno colindancia
+2020-08-05 15:55:35 error: pDato
+2020-08-05 15:55:35 error: 0
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 15:55:35 info: pOrientacion3
+2020-08-05 15:55:35 info: null
+2020-08-05 15:55:35 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0033', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-08-05 15:55:35 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = true, mensaje = "Operación exitosa", codigo = AV200
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0033, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 16:12:04 error: Buscando error en Id Terreno colindancia
+2020-08-05 16:12:04 error: pDato
+2020-08-05 16:12:04 error: 0
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 16:12:04 info: pOrientacion3
+2020-08-05 16:12:04 info: null
+2020-08-05 16:12:04 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0033', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-08-05 16:12:04 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = true, mensaje = "Operación exitosa", codigo = AV200
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0033, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 16:13:38 error: Buscando error en Id Terreno colindancia
+2020-08-05 16:13:38 error: pDato
+2020-08-05 16:13:38 error: 0
+2020-08-05 16:13:38 error: NO es de los indefinidos o nulls
+2020-08-05 16:13:38 error: pDato
+2020-08-05 16:13:38 error: 0
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 16:13:38 info: pOrientacion3
+2020-08-05 16:13:38 info: null
+2020-08-05 16:13:38 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0033', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-08-05 16:13:38 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = true, mensaje = "Operación exitosa", codigo = AV200
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0033, 0, Colindancia X, 1, 30, LINDA CON LOTE 0, , , , , , , , , , 5
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias 
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias SELECT * FROM fTerrenoColindancias(pFolio, pIdTerrenoColindancia, pDescripcionColindancia, pOrientacion1, pMedida1, pDetalleColindante1, pOrientacion2, pMedida2, pDetalleColindante2, pOrientacion3, pMedida3, pDetalleColindante3, pOrientacion4, pMedida4, pDetalleColindante4, pUsuarioOperacion);
+2020-08-05 18:19:11 info: pOrientacion3
+2020-08-05 18:19:11 info: null
+2020-08-05 18:19:11 info: SELECT * FROM fTerrenoColindancias(  (0::smallint),'FOLIO_PRUEBA_0033', 'Colindancia X',(1::smallint),(30::decimal),'LINDA CON LOTE 0',(null::smallint),(null::decimal),'null',(null::smallint),(null::decimal),null,(null::smallint),(null::decimal),null,5);
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 8] METODO: BdTerrenoColindancias RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-08-05 18:19:11 info:  [terreno.js] [Usuario: 5] METODO: terrenoColindancias RESPUESTA: ok = true, mensaje = "Operación exitosa", codigo = AV200

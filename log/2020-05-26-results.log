@@ -1,0 +1,194 @@
+2020-05-26 10:30:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 10:30:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 10:30:43 info:  [visita.js]  [Usuario: 3] METODO: BdConsultaVisita
+2020-05-26 10:30:43 info:  [visita.js]  [Usuario: 3] METODO: BdConsultaVisita: SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 10:30:43 info: 
+    $ { etiquetaLOG }
+    ERROR: $ { err.message }
+    CODIGO($ { err.code })
+    
+2020-05-26 10:30:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = no existe la función fconsultavisita(unknown) CODIGO(42883), codigo = undefined
+2020-05-26 11:03:14 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 11:03:14 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 11:03:14 info: 
+                 [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 11:03:14 info: 
+                
+                 [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+                SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+                
+2020-05-26 11:03:14 info: 
+                 [visita.js] [Usuario: 3] METODO: BdConsultaVisita ERROR: no existe la función fconsultavisita(unknown) CODIGO(42883)
+2020-05-26 11:03:14 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = no existe la función fconsultavisita(unknown) CODIGO(42883), codigo = undefined
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita  SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita ERROR: no existe la función fconsultavisita(unknown) CODIGO(42883)
+2020-05-26 11:04:58 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = no existe la función fconsultavisita(unknown) CODIGO(42883), codigo = undefined
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita  SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita ERROR: no existe la función fconsultavisita(unknown) CODIGO(42883)
+2020-05-26 11:10:40 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = no existe la función fconsultavisita(unknown) CODIGO(42883), codigo = undefined
+2020-05-26 11:11:50 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 11:11:50 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 11:11:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 11:11:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 11:11:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 11:11:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-26 11:11:51 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita  SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-26 13:04:51 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa, codigo = AV200
+2020-05-26 13:05:03 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 13:05:03 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ssss, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 13:05:03 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 13:05:03 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 13:05:03 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ssss', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 13:05:04 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 13:05:04 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita  SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-26 15:17:43 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa, codigo = AV200
+2020-05-26 15:17:50 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 15:17:50 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ssss, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 15:17:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 15:17:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 15:17:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ssss', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 15:17:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 15:17:51 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-26 15:17:54 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-26 15:18:16 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:21:59 info: [object Object]
+2020-05-26 15:21:59 info: [object Object]
+2020-05-26 15:21:59 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:25:41 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:27:40 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:28:37 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:29:45 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:30:24 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-26 15:31:52 info: verificaToken  Error: Se generó un error en la verificación del token solicitado de /consultaVisita
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita  SELECT * FROM fConsultaVisita('FOLIO_PRUEBA_0002');
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-26 15:32:25 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa, codigo = AV200
+2020-05-26 15:32:39 info: verificaToken  Error: Se generó un error en la verificación del token solicitado de /visita
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-26 15:32:52 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-26 15:34:23 info:  [autenticacion.js] METODO: verificaToken  Error: Se generó un error en la verificación del token solicitado de /visita
+2020-05-26 15:49:00 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 15:49:00 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> undefined
+2020-05-26 15:49:00 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-26 17:10:48 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 17:10:48 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> undefined
+2020-05-26 17:10:48 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-26 17:24:35 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 17:24:35 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> undefined
+2020-05-26 17:24:35 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-26 17:24:42 info:  [autenticacion.js] METODO: verificaToken  Error: Se generó un error en la verificación del token solicitado de /visita
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-26 17:24:57 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-26 17:25:21 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:25:21 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:25:21 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:25:21 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:25:21 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:25:22 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 17:25:22 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:29:32 info:  [visita.js] [Usuario: 3] METODO: BdVisita ERROR: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer) CODIGO(42883)
+2020-05-26 17:29:32 error:  [visita.js] [Usuario: 3] METODO: visita ERROR: {}
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:32:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita ERROR: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer) CODIGO(42883)
+2020-05-26 17:32:26 info: err------------
+2020-05-26 17:32:26 info: CATCH----------
+2020-05-26 17:32:26 error:  [visita.js] [Usuario: 3] METODO: visita ERROR: {}
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 17:34:46 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 17:37:51 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:39:50 info:  [visita.js] [Usuario: 3] METODO: BdVisita ERROR: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer) CODIGO(42883)
+2020-05-26 17:39:50 info: err------------
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:41:04 info:  [visita.js] [Usuario: 3] METODO: BdVisita ERROR: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer) CODIGO(42883)
+2020-05-26 17:41:04 info: err------------
+2020-05-26 17:41:04 error:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = error: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer), codigoBD = 42883
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:44:40 info:  [visita.js] [Usuario: 3] METODO: BdVisita ERROR: error: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer) CODIGO_BD(42883)
+2020-05-26 17:44:40 info: err------------
+2020-05-26 17:44:40 error:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = error: no existe la función fvisita(unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, integer), codigoBD = 42883
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 17:54:59 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 18:43:44 info:  [autenticacion.js] METODO: verificaToken  Error: Se generó un error en la verificación del token solicitado de /visita
+2020-05-26 18:44:26 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-26 18:44:26 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002ee, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-26 18:44:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-26 18:44:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-26 18:44:26 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita('FOLIO_PRUEBA_0002ee', 'Silvia Alejandra', 'Acosta', '','silvia@sil.com','','','','2020-05-30','','',3);
+2020-05-26 18:44:27 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"}]
+2020-05-26 18:44:27 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "inserción o actualización en la tabla «visita» viola la llave foránea «fk_visitaavaluobase»"
+2020-05-26 18:45:20 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-26 18:45:20 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> undefined
+2020-05-26 18:45:20 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido

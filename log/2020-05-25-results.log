@@ -1,0 +1,105 @@
+2020-05-25 08:29:24 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:29:24 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  undefined, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:29:24 info:  [visita.js] [Usuario: 3] METODO: visitaEl folio indicado no es válido
+2020-05-25 08:30:37 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:30:37 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  undefined, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:30:37 info:  [visita.js] [Usuario: 3] METODO: visita ERROR: El folio indicado no es válido
+2020-05-25 08:31:01 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:31:01 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  , Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:31:01 info:  [visita.js] [Usuario: 3] METODO: visita ERROR: El folio indicado no es válido
+2020-05-25 08:31:07 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:31:07 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->                             , Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:31:07 info:  [visita.js] [Usuario: 3] METODO: visitaEl folio indicado no es válido
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: BdVisita : SELECT * FROM fVisita ('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '', 'silvia@sil.com', '', '', '', '2020-05-30', '', '', 3);
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-25 08:31:16 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-44, ,                   , 3
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: BdVisita : SELECT * FROM fVisita ('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '', 'silvia@sil.com', '', '', '', '2020-05-44', '', '', 3);
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":false,"mensaje":"el valor de hora/fecha está fuera de rango: «2020-05-44»"}]
+2020-05-25 08:31:29 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = false, mensaje = "el valor de hora/fecha está fuera de rango: «2020-05-44»"
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->  FOLIO_PRUEBA_0002, Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: BdVisita 
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: BdVisita SELECT * FROM fVisita (pFolio, pNombreContacto, pPaternoContacto, pMaternoContacto, pCorreoElectronico, pTelefonoLada, pExtensionTelefono, pCelular, pFechaVisita, pHoraVisita, pObservaciones, pUsuarioOperacion);
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: BdVisita : SELECT * FROM fVisita ('FOLIO_PRUEBA_0002', 'Silvia Alejandra', 'Acosta', '', 'silvia@sil.com', '', '', '', '2020-05-30', '', '', 3);
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: BdVisita RESULTADO: [{"resultado":true,"mensaje":"Operación exitosa"}]
+2020-05-25 08:31:39 info:  [visita.js] [Usuario: 3] METODO: visita RESPUESTA: ok = true, mensaje = "Operación exitosa"
+2020-05-25 08:33:58 info:  [visita.js] [Usuario: 3] METODO: visita
+2020-05-25 08:33:58 info:  [visita.js] [Usuario: 3] METODO: visita, PARAMETROS DE ENTRADA -->                , Silvia Alejandra, Acosta, , silvia@sil.com, , , , 2020-05-30, ,                   , 3
+2020-05-25 08:33:58 info:  [visita.js] [Usuario: 3] METODO: visita ERROR: El folio indicado no es válido
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-25 08:40:21 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa
+2020-05-25 08:40:28 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:28 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> undefined
+2020-05-25 08:40:28 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-25 08:40:38 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:38 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> 
+2020-05-25 08:40:38 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-25 08:40:42 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:42 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> 
+2020-05-25 08:40:42 info:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: El folio indicado no es válido
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-25 08:40:49 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002RRR
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002RRR');
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: []
+2020-05-25 08:40:53 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = No se encontró información con el folio indicado
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: [{"folio":"FOLIO_PRUEBA_0002","nombrecontacto":"Silvia Alejandra","paternocontacto":"Acosta","maternocontacto":"","correoelectronico":"silvia@sil.com","telefonolada":"","extensiontelefono":"","celular":"","fechavisita":"2020-05-30T05:00:00.000Z","horavisita":"","observaciones":""}]
+2020-05-25 08:40:59 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = true, mensaje = Consulta exitosa
+2020-05-25 10:55:18 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 10:55:18 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002d
+2020-05-25 10:55:18 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 10:55:18 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 10:55:18 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002d');
+2020-05-25 10:55:19 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita RESULTADO: []
+2020-05-25 10:55:19 info:  [visita.js] [Usuario: 3] METODO: consultaVisita RESPUESTA: ok = false, mensaje = No se encontró información con el folio indicado
+2020-05-25 14:41:36 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 14:41:36 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 14:41:36 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 14:41:36 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 14:41:36 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 14:41:37 error:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: "METODO: BdConsultaVisita, 42883"
+2020-05-25 16:48:04 info: verificaToken  Error: Se generó un error en la verificación del token
+2020-05-25 16:48:28 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 16:48:28 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 16:48:28 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 16:48:28 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 16:48:28 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 16:48:28 error:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: "METODO: BdConsultaVisita, no existe la función fconsultavisita(unknown) ----- 42883"
+2020-05-25 16:50:48 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 16:50:48 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 16:50:48 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 16:50:48 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 16:50:48 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 16:50:48 error:  [visita.js] [Usuario: 3] METODO: consultaVisita ERROR: "METODO: BdConsultaVisita, ERROR: no existe la función fconsultavisita(unknown) CODIGO(42883)"
+2020-05-25 18:59:49 info:  [visita.js] [Usuario: 3] METODO: consultaVisita
+2020-05-25 18:59:49 info:  [visita.js] [Usuario: 3] METODO: consultaVisita, PARAMETROS DE ENTRADA --> FOLIO_PRUEBA_0002
+2020-05-25 18:59:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita 
+2020-05-25 18:59:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita SELECT * FROM fConsultaVisita (pFolio);
+2020-05-25 18:59:49 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita : SELECT * FROM fConsultaVisita ('FOLIO_PRUEBA_0002');
+2020-05-25 18:59:50 info:  [visita.js] [Usuario: 3] METODO: BdConsultaVisita ERROR: no existe la función fconsultavisita(unknown) CODIGO(42883)

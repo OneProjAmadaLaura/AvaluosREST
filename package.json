@@ -1,0 +1,20 @@
+{
+  "name": "serviciosavaluos",
+  "version": "1.0.0",
+  "description": "Servicios REST para el aplicativo Avalúos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amada Laura Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.6",
+    "pg": "^8.0.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  }
+}
