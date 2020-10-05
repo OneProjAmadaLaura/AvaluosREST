@@ -16,5 +16,7 @@ app.use(require('./equipamientoUrbano'))
 app.use(require('./terreno'))
 app.use(require('./descGralInmueble'))
 app.use(require('./descGralInmTablaConserva'))
+app.use(require('./descGralInmCalcMatriz'))
+
 
 module.exports = app;
