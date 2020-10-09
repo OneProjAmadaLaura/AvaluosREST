@@ -133,6 +133,10 @@ app.get('/consultaTablaConservacion', verificaToken, (req, res) => {
         let resultadoDat;
         let folio;
         let clase;
+        let estadoGralConserva;
+        let totalPuntosAjustados;
+        let vidaMinRemanente;
+        let indiceCostosRemanente;
         let tablaResultado = [];
 
         let datoNoValido = '';
@@ -158,6 +162,10 @@ app.get('/consultaTablaConservacion', verificaToken, (req, res) => {
 
                         folio = resultadoDat[0].folio;
                         clase = resultadoDat[0].idclaseconstruccion;
+                        estadoGralConserva = resultadoDat[0].estadogralconservacion;
+                        totalPuntosAjustados = resultadoDat[0].totalpuntosajustados;
+                        vidaMinRemanente = resultadoDat[0].vidaminimaremanente;
+                        indiceCostosRemanente = resultadoDat[0].indicecostosremanente;
 
                         for (var i = 0, l = numReg; i < l; i++) {
                             var elemRes = {
@@ -181,6 +189,12 @@ app.get('/consultaTablaConservacion', verificaToken, (req, res) => {
                         ok: (numReg > 0 && folio != '') ? true : false,
                         mensaje: (numReg > 0 && folio != '') ? 'Consulta exitosa' : 'No se encontró información',
                         claseConstruccion: (numReg > 0 && folio != '') ? clase : '',
+
+                        estadoGralConserva: (numReg > 0 && folio != '') ? estadoGralConserva : '',
+                        totalPuntosAjustados: (numReg > 0 && folio != '') ? totalPuntosAjustados : 0,
+                        vidaMinRemanente: (numReg > 0 && folio != '') ? vidaMinRemanente : 0,
+                        indiceCostosRemanente: (numReg > 0 && folio != '') ? indiceCostosRemanente : 0,
+
                         tabla: (numReg > 0) ? tablaResultado : [],
                         codigo: (numReg > 0 && folio != '') ? codRespuesta.exito : codRespuesta.noDatos
                     });
@@ -269,9 +283,9 @@ function BdConsultaTablaConservacion(pFolio, pIdInmConstruccion, pClase, pUsuari
         logger.info(etiquetaLOG);
         const client = new Pool(configD);
 
-        logger.info(`${ etiquetaLOG } SELECT * FROM fConsultaTablaConservacionN(pFolio, pIdInmConstruccion, pClase);`);
+        logger.info(`${ etiquetaLOG } SELECT * FROM fConsultaTablaConservacionN(pFolio, pIdInmConstruccion, pClase, pUsuarioOperacion);`);
 
-        let sQuery = 'SELECT * FROM fConsultaTablaConservacionN( \'' + pFolio + '\',' + pIdInmConstruccion + ', \'' + pClase + '\');';
+        let sQuery = 'SELECT * FROM fConsultaTablaConservacionN( \'' + pFolio + '\',' + pIdInmConstruccion + ', \'' + pClase + '\', ' + pUsuarioOperacion + ');';
 
         logger.info(`${etiquetaLOG} ${sQuery} `);
 
