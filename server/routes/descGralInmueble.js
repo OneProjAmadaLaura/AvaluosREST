@@ -330,7 +330,8 @@ app.get('/consultaInmuebleConstruc', verificaToken, (req, res) => {
                                 indiceCostosRemanenteF: resultadoDat[i].indicecostosremanentef,
                                 totalPuntosAjustadosF: resultadoDat[i].totalpuntosajustadosf,
                                 claseSM: resultadoDat[i].clasesm,
-                                puntajeSM: resultadoDat[i].puntajesm
+                                puntajeSM: resultadoDat[i].puntajesm,
+                                claseCMFF: resultadoDat[i].clasecmff
                             }
                             tablaResultado.push(elemRes);
                         }
