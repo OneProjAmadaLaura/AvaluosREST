@@ -364,9 +364,9 @@ function BdCalculoMatriz(
 
         const client = new Pool(configD);
 
-        logger.info(etiquetaLOG + 'SELECT * FROM fCalculoCalcMatriz( pIdInmConstruccion, pIdMatriz, pValores, pUsuarioOperacion);');
+        logger.info(etiquetaLOG + 'SELECT * FROM fInmConstrucMatriz( pIdInmConstruccion, pIdMatriz, pValores, pUsuarioOperacion);');
 
-        let sQuery = 'SELECT * FROM fCalculoCalcMatriz( ' +
+        let sQuery = 'SELECT * FROM fInmConstrucMatriz( ' +
             pIdInmConstruccion + ', ' +
             '(' + pIdMatriz + '::smallint),' +
             ' \'' + pValores + '\',' +
@@ -432,9 +432,9 @@ function BdConsultaCalculoMatriz(pIdInmConstruccion, pMatriz, pUsuarioOperacion)
         logger.info(etiquetaLOG);
         const client = new Pool(configD);
 
-        logger.info(`${ etiquetaLOG } SELECT * FROM fConsultaCalcMatriz(pIdInmConstruccion, pMatriz);`);
+        logger.info(`${ etiquetaLOG } SELECT * FROM fConsultaInmConstrucMatriz(pIdInmConstruccion, pMatriz);`);
 
-        let sQuery = 'SELECT * FROM fConsultaCalcMatriz( ' + pIdInmConstruccion + ', (' + pMatriz + '::smallint));';
+        let sQuery = 'SELECT * FROM fConsultaInmConstrucMatriz( ' + pIdInmConstruccion + ', (' + pMatriz + '::smallint));';
 
         logger.info(`${etiquetaLOG} ${sQuery} `);
 
