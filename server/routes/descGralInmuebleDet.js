@@ -32,7 +32,7 @@ app.post('/descGeneralInmueble', verificaToken, (req, res) => {
         let pCalidadProyecto = body.CalidadProyecto;
         let pUnidadesRentableSuscep = body.UnidadesRentableSuscep;
         let pPorcSuperfUltRespecAnt = body.PorcSuperfUltRespecAnt;
-        let pIdIndiceSatZonaAvanceObra = body.IdIndiceSatZonaAvanceObra;
+        let pIdIndiceSatZonaAvanceObra = body.AvanceObra;
         let pImportTotValorCatastralF = body.ImportTotValorCatastralF;
 
         let pUsuarioOperacion = req.usuario.idUsuario;
