@@ -147,7 +147,7 @@ app.get('/consultaDescGeneralInmueble', verificaToken, (req, res) => {
                             calidadProyecto: resultadoDat[0].calidadproyecto,
                             unidadesRentableSuscep: resultadoDat[0].unidadesrentablesuscep,
                             porcSuperfUltRespecAnt: resultadoDat[0].porcsuperfultrespecant,
-                            idIndiceSatZonaAvanceObra: resultadoDat[0].idindicesatzonaavanceobra,
+                            AvanceObra: resultadoDat[0].idindicesatzonaavanceobra,
                             importTotValorCatastralF: resultadoDat[0].importtotvalorcatastralf
 
                         }
