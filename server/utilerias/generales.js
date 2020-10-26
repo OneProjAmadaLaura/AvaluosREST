@@ -22,7 +22,10 @@ function datoValido(pRequerido, pTipoDato, pEtiqueta, pDato) {
                     datoNoValido = leyendaRequerido + pEtiqueta;
                 } else if (pDato != 0) {
                     datoNoValido = leyendaRequerido + pEtiqueta;
+                } else if ((pTipoDato == 'R' || pTipoDato == 'B') && pDato == '') {
+                    datoNoValido = leyendaRequerido + pEtiqueta;
                 }
+
             } else {
 
                 if (pTipoDato == 'S') {

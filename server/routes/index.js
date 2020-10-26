@@ -19,5 +19,7 @@ app.use(require('./descGralInmTablaConserva'))
 app.use(require('./descGralInmCalcMatriz'))
 app.use(require('./descGralInmuebleDet'))
 app.use(require('./descGralInmuebleComplemento'))
+app.use(require('./comunicados'))
+app.use(require('./reporte'))
 
 module.exports = app;
