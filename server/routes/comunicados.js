@@ -175,7 +175,7 @@ app.get('/consultaComunicadosSociedad', verificaToken, (req, res) => {
  ****************************************************************************/
 app.get('/consultaComunicadosInicio', verificaToken, (req, res) => {
     try {
-        let etiquetaLOG = ruta + '[Usuario: ' + req.usuario.idUsuario + '] METODO: consultaInmuebleConstruc';
+        let etiquetaLOG = ruta + '[Usuario: ' + req.usuario.idUsuario + '] METODO: consultaComunicadosInicio';
         logger.info(etiquetaLOG);
 
         let pIdSociedad = req.usuario.idSociedad;
@@ -286,7 +286,7 @@ function BdComunicadosSociedad(pIdComunicado, pIdSociedad, pTitulo,
         });
     } catch (err) {
         logger.error(`${ ruta } ERROR: ${ err }`);
-        throw (`Se presentó un error en BdInmuebleConstrucciones: ${err}`);
+        throw (`Se presentó un error en BdComunicadosSociedad: ${err}`);
     }
 }
 

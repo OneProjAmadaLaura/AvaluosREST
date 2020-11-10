@@ -21,5 +21,6 @@ app.use(require('./descGralInmuebleDet'))
 app.use(require('./descGralInmuebleComplemento'))
 app.use(require('./comunicados'))
 app.use(require('./reporte'))
+app.use(require('./elementosConstruccion'))
 
 module.exports = app;
